@@ -1,6 +1,5 @@
-import * as React from "react";
-
-export interface HelloProps { compiler: string; framework: string; user: number }
+import * as React from "react/index.js";
+import HelloProps from "../interfaces/Helloprops";
 
 
 export const Hello = (props: HelloProps) => {
